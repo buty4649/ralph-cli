@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'ralph/cli'
+require 'hanami/cli'
+
+Hanami::CLI.new(Ralph::CLI::Commands).call
