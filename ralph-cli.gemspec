@@ -37,7 +37,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "faraday", ">= 0.15.4"
   spec.add_dependency "faraday_middleware", ">= 0.13.1"
 
-  spec.add_development_dependency "bundler", "~> 1.17"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "minitest", "~> 5.0"
+  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "rake"
+  spec.add_development_dependency "minitest"
 end
